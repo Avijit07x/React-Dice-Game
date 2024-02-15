@@ -8,7 +8,7 @@ This web application is a basic dice game where the player rolls a virtual dice 
 
 ## Deployment
 
-The app is deployed and accessible at https://todo-app-github-avijit07x.netlify.app/.
+The app is deployed and accessible at https://react-dice-game-github-avijit07x.netlify.app/
 
 ## Rules
 
