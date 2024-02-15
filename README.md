@@ -23,3 +23,5 @@ The app is deployed and accessible at https://todo-app-github-avijit07x.netlify.
 - Tailwind CSS
 
 ## Screenshots
+![localhost_5173_](https://github.com/Avijit07x/React-Dice-Game/assets/154034057/08832d06-69a6-45b8-b51d-d3c9a5410744)
+![localhost_5173_ (1)](https://github.com/Avijit07x/React-Dice-Game/assets/154034057/d5309caf-0ec3-44fb-a0c8-de779c70a772)
