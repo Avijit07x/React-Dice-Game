@@ -25,6 +25,7 @@ const GamePlay = () => {
           <DisplayNumber
             selectedNumber={selectedNumber}
             setSelectedNumber={setSelectedNumber}
+            setErrorMessage={setErrorMessage}
           />
         </div>
         <RoleDice

@@ -1,4 +1,8 @@
-const DisplayNumber = ({ setSelectedNumber, selectedNumber }) => {
+const DisplayNumber = ({
+  setSelectedNumber,
+  selectedNumber,
+  setErrorMessage,
+}) => {
   const numberArray = [1, 2, 3, 4, 5, 6];
   return (
     <div className="max-sm:mx-auto">
@@ -9,7 +13,10 @@ const DisplayNumber = ({ setSelectedNumber, selectedNumber }) => {
             className={`h-12 w-12 grid place-items-center cursor-pointer font-semibold border border-black ${
               number === selectedNumber && "bg-black text-white"
             }`}
-            onClick={() => setSelectedNumber(number)}
+            onClick={() => {
+              setSelectedNumber(number);
+              setErrorMessage(false);
+            }}
           >
             {number}
           </div>
