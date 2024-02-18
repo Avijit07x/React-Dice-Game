@@ -1,6 +1,6 @@
 const TotalScore = ({ totalScore }) => {
   return (
-    <div className="text-center max-sm:mx-auto max-sm:mb-3">
+    <div className="text-center max-sm:mx-auto max-sm:mb-3 max-sm:w-full">
       <h1 className="text-[6.25rem] font-semibold leading-none">
         {totalScore}
       </h1>

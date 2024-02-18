@@ -13,14 +13,14 @@ const GamePlay = () => {
   return (
     <>
       <main className="p-5 container select-none lg:mx-auto">
-        <div className="w-full h-5 flex justify-end">
+        <div className="w-full h-5 flex justify-end max-sm:justify-center max-sm:mb-2">
           {errorMessage && (
             <p className="text-red-500 font-semibold text-base ">
               You have not selected any number
             </p>
           )}
         </div>
-        <div className="container flex items-center justify-between flex-wrap">
+        <div className="container flex items-center justify-between flex-wrap max-sm:flex-wrap">
           <TotalScore totalScore={totalScore} />
           <DisplayNumber
             selectedNumber={selectedNumber}
